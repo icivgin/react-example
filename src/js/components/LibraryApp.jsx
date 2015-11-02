@@ -19,7 +19,7 @@ var LibraryApp = React.createClass({
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-md-offset-3">
+          <div className="col-md-3 col-md-offset-1">
             <h3>Library Actions</h3>
             <br />
             <NewBookForm />

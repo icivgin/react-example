@@ -21081,7 +21081,7 @@ var LibraryApp = React.createClass({displayName: "LibraryApp",
     return (
       React.createElement("div", {className: "container"}, 
         React.createElement("div", {className: "row"}, 
-          React.createElement("div", {className: "col-md-3 col-md-offset-3"}, 
+          React.createElement("div", {className: "col-md-3 col-md-offset-1"}, 
             React.createElement("h3", null, "Library Actions"), 
             React.createElement("br", null), 
             React.createElement(NewBookForm, null), 

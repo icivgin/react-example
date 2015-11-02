@@ -12,7 +12,7 @@ var BookSchema = new Schema({
 
 var Book = mongoose.model('Book', BookSchema);
 
-app.set('port', 5000);
+app.set('port', 3000);
 
 mongoose.connect('mongodb://localhost/book-react-test');
 
@@ -58,5 +58,5 @@ app.delete('/books/:id', function (req, res) {
 });
 
 app.listen(app.get('port'), function() {
-  console.log("server started on port 5000... i hope.")
+  console.log("Server running on port 3000 ...")
 });
